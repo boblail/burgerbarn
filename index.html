@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <style type="text/css">
+      body {
+        background:url(images/burgerbarnbg2.png);
+        background-position:-60px 0;
+        padding:0;
+        margin:0;
+      }
+      ol#screens {
+        margin:0;
+        padding:0;
+      }
+      ol#screens li {
+        display:block;
+        height:800px;
+        margin:0;
+        padding:0;
+        position:relative;
+      }
+      .solid-background {
+        background:#202020;
+      }
+      .half-background {
+        background:url(images/half-back.png);
+        background-repeat:repeat-x;
+      }
+      .transition-1 {
+        background:url(images/burgerbarn-transition1.png);
+        background-repeat:repeat-x;
+        height:6000px !important;
+      }
+      .transition-2a {
+        background:url(images/burgerbarn-transition2a.png);
+        background-repeat:repeat-x;
+      }
+      .transition-2b {
+        background:url(images/burgerbarn-transition2b.png);
+        background-repeat:repeat-x;
+        height:1400px !important;
+      }
+      img.centered {
+        left:50%;
+        top:50%;
+        position:absolute;
+        margin-left:-512px;
+        margin-top:-252px;
+      }
+    </style>
+  </head>
+  <body>
+    <ol id="screens">
+      <li class="screen solid-background" id="page-1"><a id="start"><img class="centered" src="images/page1.png" /></a></li>
+      <li class="screen solid-background"></li>
+      <li class="screen solid-background"></li>
+      <li class="screen solid-background" id="page-2"><img class="centered" src="images/page2.png" /></li>
+      <li class="screen transition-1"></li>
+      <li class="screen" id="page-3"><img class="centered" src="images/page3.png" /></li>
+      <li class="screen"></li>
+      <li class="screen transition-2a"></li>
+      <li class="screen half-background" id="page-4"><img class="centered" src="images/page4.png" /></li>
+      <li class="screen half-background" id="page-5"><img class="centered" src="images/page5.png" /></li>
+      <li class="screen half-background" id="page-6"><img class="centered" src="images/page6.png" /></li>
+      <li class="screen transition-2b"></li>
+      <li class="screen solid-background" id="page-7"><img class="centered" src="images/page1.png" /></li>
+      <li class="screen solid-background" id="page-8"><img class="centered" src="images/page8.png" /></li>
+      <li class="screen solid-background" id="page-9"><img class="centered" src="images/page9.png" /></li>
+      <li class="screen solid-background" id="page-10"><img class="centered" src="images/page10.png" /></li>
+      <li class="screen solid-background"></li>
+      <li class="screen solid-background" id="page-11"><img class="centered" src="images/page11.png" /></li>
+    </ol>
+    <script src="js/prototype.s2.min.js" type="text/javascript"></script>
+    <script src="js/home.js" type="text/javascript"></script>
+  </body>
+</html>

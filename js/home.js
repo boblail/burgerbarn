@@ -13,16 +13,16 @@ window.debug = function(s) {
 var Story = {
   transitions: [
     {transition:   0, rest: 2500}, // Page  1: Logo
-    {transition: 2.0, rest: 2000}, // Page  2: BB claims to serve over 1 million hamburgers
-    {transition: 3.5, rest: 4000}, // Page  3: How many different toppings?
-    {transition: 1.0, rest: 2000}, // Page  4: 20 (formula)
-    {transition: 1.0, rest:  400}, // Page  5: That's not very impressive
-    {transition: 1.0, rest:  400}, // Page  6: We could do better
-    {transition: 1.5, rest: 2000}, // Page  7: Logo
+    {transition: 1.8, rest: 2000}, // Page  2: BB claims to serve over 1 million hamburgers
+    {transition: 2.0, rest: 3600}, // Page  3: How many different toppings?
+    {transition: 0.8, rest: 2000}, // Page  4: 20 (formula)
+    {transition: 1.0, rest:  300}, // Page  5: That's not very impressive
+    {transition: 1.0, rest:  500}, // Page  6: We could do better
+    {transition: 1.2, rest: 2000}, // Page  7: Logo
     {transition: 0.6, rest:  100}, // Page  8: April 15
     {transition: 0.6, rest:  100}, // Page  9: 30 toppings
-    {transition: 0.6, rest:  100}, // Page 10: 1 billion possibilities
-    {transition: 1.5, rest:    0}, // Page 11: directions
+    {transition: 0.6, rest:  500}, // Page 10: 1 billion possibilities
+    {transition: 1.0, rest:    0}, // Page 11: directions
   ],
   scroll_to_top: function() {
     Story.scroll_to_chapter(1);

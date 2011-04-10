@@ -1,7 +1,7 @@
-if(Prototype.Browser.WebKit) {
-  var viewport_element = $$("body").first();
-} else {
+if(Prototype.Browser.IE) {
   var viewport_element = $$("html").first();
+} else {
+  var viewport_element = $$("body").first();
 }
 
 window.debug = function(s) {
